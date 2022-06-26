@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    width: 1535px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+}
+header .contact img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1445px;
+    top: 5px;
+}
+header .resume{
+    position: absolute;
+    width: 184px;
+    height: 30px;
+    left: 1251px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+header .resume a:hover{
+    color: #f8f8f9;
+}
