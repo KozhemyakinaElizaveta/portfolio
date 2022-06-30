@@ -37,3 +37,107 @@ header .resume{
 header .resume a:hover{
     color: #f8f8f9;
 }
+main .main-body1{
+    position: absolute;
+    width: 114px;
+    height: 242px;
+    left: 620px;
+    top: 135px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 170px;
+    line-height: 242px;
+    /* identical to box height */
+    text-align: center;
+    color: #1E90FF;
+}
+main .main-body2{
+    position: absolute;
+    width: 53px;
+    height: 242px;
+    left: 725px;
+    top: 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 170px;
+    line-height: 242px;
+    /* identical to box height */
+    text-align: center;
+    color: #F41212;
+}
+main .main-body3{
+    position: absolute;
+    width: 113px;
+    height: 242px;
+    left: 760px;
+    top: 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 170px;
+    line-height: 242px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFD700;
+}
+main .main-body4{
+    position: absolute;
+    width: 115px;
+    height: 242px;
+    left: 835px;
+    top: 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 170px;
+    line-height: 242px;
+    text-align: center;
+    color: #32CD32;
+}
+main .main-body5{
+    position: absolute;
+    width: 212px;
+    height: 36px;
+    left: 780px;
+    top: 310px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #30B8E2;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.text {
+    width: 29ch;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    white-space: nowrap; /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    border-right: 3px solid white; /* рисуем курсор */
+    animation: cursor 0.75s step-end infinite, printed_text 5s steps(29);
+}
+@keyframes cursor {
+    0% {
+        border-color: white;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: white;
+    }
+}
+@keyframes printed_text {
+    from {
+        width: 0;
+    }
+}
