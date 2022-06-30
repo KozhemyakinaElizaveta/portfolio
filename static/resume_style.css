@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: 1535px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+}
+header .contact img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1445px;
+    top: 5px;
+}
+header .search-box{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 150px;
+    top: 15px;
+    background: #FFFFFF;
+}
+header .box{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 620px;
+    top: 15px;
+    background: #30B8E2;
+}
+header .search img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 625px;
+    top: 20px;
+}
+header .text-search{
+    position: absolute;
+    width: 184px;
+    height: 30px;
+    left: 160px;
+    top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+header .main-body1{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 8px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    color: #1E90FF;
+}
+header .main-body2{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 30px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    color: #F41212;
+}
+header .main-body3{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 50px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFD700;
+}
+header .main-body4{
+    position: absolute;
+    width: 65px;
+    height: 55px;
+    left: 73px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    color: #32CD32;
+}
+main .text_main{
+    position: absolute;
+    width: 515px;
+    height: 360px;
+    left: 120px;
+    top: 100px;
+}
+main .text_main1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    color: #30B8E2;
+}
+main .text_main2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
