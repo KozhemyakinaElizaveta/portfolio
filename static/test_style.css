@@ -5,3 +5,8 @@ body {
   display: flex;
   height: 100%;
 }
+.word {
+  margin: auto;
+  color: #000000;
+  font: 700 normal 2.5em 'tahoma';
+}

@@ -263,7 +263,7 @@ main .text_contact2{
 }
 footer{
     position: absolute;
-    width: 1535px;
+    width: 100%;
     height: 30px;
     left: 0px;
     bottom: 0px;
