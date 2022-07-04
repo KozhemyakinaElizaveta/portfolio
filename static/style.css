@@ -4,7 +4,7 @@
 }
 header{
     position: absolute;
-    width: 1535px;
+    width: 100%;
     height: 60px;
     left: 0px;
     top: 0px;
@@ -14,14 +14,14 @@ header .contact img{
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 1445px;
+    right: 3%;
     top: 5px;
 }
 header .resume{
     position: absolute;
     width: 184px;
     height: 30px;
-    left: 1251px;
+    right: 7%;
     top: 10px;
     font-family: 'Inter';
     font-style: normal;
@@ -159,7 +159,7 @@ main .search img{
 }
 footer{
     position: absolute;
-    width: 1535px;
+    width: 100%;
     height: 30px;
     left: 0px;
     bottom: 0px;
