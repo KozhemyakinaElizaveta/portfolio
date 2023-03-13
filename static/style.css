@@ -7,6 +7,7 @@
     flex-direction: column;
     min-height: 100vh;
     flex-flow: column;
+    overflow: hidden;
 }
 @media all and (max-width: 800px) {
     main {
@@ -76,42 +77,14 @@ a:hover {
         transform: rotate(-15deg);
     }
 }
-/*#first {
-    display: flex;
-    justify-content: flex-end;
-}
-header .contact img{
-    margin-right: 40px;
-    margin-top: 5px;
-    width: 50px;
-    height: 50px;
-}
-header .resume{
-    margin: 0.7%;
-    width: 184px;
-    height: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    text-decoration-line: underline;
-    color: #000000;
-    cursor: pointer;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-header .resume a:hover{
-    color: #f8f8f9;
-}*/
+
 main{
     display: flex;
     flex: 1;
     align-self: center;
-    margin-bottom: 130px;
 }
 .mainmain{
-    align-self: center;
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
 }
@@ -121,8 +94,10 @@ main{
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
     font-weight: 600;
-    font-size: 23vh;
+    font-size: 15vh;
 }
 .l{
     color: #1E90FF;
@@ -140,26 +115,26 @@ main{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 3.5vh;
+    font-size: 2.4vh;
     color: #30B8E2;
-    margin-top: 21.4vh;
-    margin-left: -18vh;
+    margin-top: 15vh;
+    margin-left: -15vh;
 }
 .wrapper {
     margin-top: 2vh;
     justify-content: center;
 }
 .text {
-    margin-left: 1vh;
+    margin-left: 1.3vh;
     margin-top: 0.2vh;
-    width: 41.5vh;
+    width: 30.7vh;
     color: #000000;
     font-family: monospace;
     font-weight: 200;
-    font-size: 2.7vh;
+    font-size: 2vh;
     white-space: nowrap; /* не переносить текст на другую строку */
     overflow: hidden; /* скрываем переполнение контентом */
-    border-right: 1.5px solid #000000; /* рисуем курсор */
+    border-right: 0.1vh solid #000000; /* рисуем курсор */
     animation: cursor 0.75s step-end infinite, printed_text 5s steps(28);
 }
 
@@ -181,23 +156,28 @@ main{
 }
 
 .for-text{
-    width: 83vh;
+    width: 68vh;
 }
 .box{
     display: flex;
     flex-direction: row;
-    border: 3px solid #30B8E2;
-    width: 90vh;
-    height: 4vh;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 0.3vh solid #30B8E2;
+    width: 75vh;
+    height: 3vh;
+    border-radius: 3vh;
 }
 .search img{
-    margin-top: 0.2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 10vh;
     margin-left: 2.5vh;
-    width: 3.5vh;
-    height: 3.5vh;
+    margin-right: 0.7vh;
+    width: 2vh;
+    height: 2vh;
 }
 footer{
-    flex: 0 0 auto;
+    margin-top: auto;
 }
 .feet {
     width: 100%;
